@@ -45,7 +45,7 @@ public class PlayerControl : MonoBehaviour
             rb.velocity = Vector2.up * jumpForce;
             extraJumps--;
         }
-        else if(Input.GetKeyDown(KeyCode.UpArrow) && extraJumps == 0) {
+        else if(Input.GetKeyDown(KeyCode.UpArrow) && extraJumps == 0 && isGrounded == true) {
             rb.velocity = Vector2.up * jumpForce;
         }
     }
