@@ -122,4 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2fea83a3dc48084da7be288eba580a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theTime: {fileID: 0}
+  player: {fileID: 0}
+  rend: {fileID: 2907148168563191895}
+  box: {fileID: 7398983985034419532}
