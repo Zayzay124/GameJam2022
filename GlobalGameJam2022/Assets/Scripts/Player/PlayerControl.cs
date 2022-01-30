@@ -52,7 +52,7 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey("space"))
+        if (Input.GetKeyDown("space"))
         {
             isDay = !isDay;
         }

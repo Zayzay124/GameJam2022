@@ -5,6 +5,10 @@ public class SunPlat : MonoBehaviour
     public GameObject player;
     private bool day;
 
+    public Renderer rend;
+    public Collider2D box;
+
+
     void Start()
     {
         
@@ -16,7 +20,14 @@ public class SunPlat : MonoBehaviour
         day = player.GetComponent<PlayerControl>().isDay;
         if (day==false)
         {
-            gameObject.SetActive(false);
+            rend.enabled = false;
+            box.enabled = false;
+        }
+        else
+        {
+            rend.enabled = true;
+            box.enabled = true;
+
         }
     }
 }
