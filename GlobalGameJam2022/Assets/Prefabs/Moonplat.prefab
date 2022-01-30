@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1526420568496773064}
   - component: {fileID: 1526420568496773110}
   - component: {fileID: 1526420568496773111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moonplat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
