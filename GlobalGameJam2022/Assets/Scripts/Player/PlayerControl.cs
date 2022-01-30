@@ -18,7 +18,10 @@ public class PlayerControl : MonoBehaviour
     private int extraJumps;
     public int extraJumpsValue;
 
+
     Vector2 origPos;
+
+    public bool isDay;
 
     void Start()
     {
@@ -49,7 +52,12 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
-       if(isGrounded == true) {
+        if (Input.GetKey("space"))
+        {
+            isDay = !isDay;
+        }
+
+        if (isGrounded == true) {
             extraJumps = extraJumpsValue;
         }
 
