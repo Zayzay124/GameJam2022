@@ -2,22 +2,22 @@ using UnityEngine;
 
 public class SunPlat : MonoBehaviour
 {
-    public GameObject player;
     private bool day;
 
     public Renderer rend;
     public Collider2D box;
 
+    PlayerControl time;
 
     void Start()
     {
-        
+        time = FindObjectOfType<PlayerControl>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        day = player.GetComponent<PlayerControl>().isDay;
+        day = time.GetComponent<PlayerControl>().isDay;
         if (day==false)
         {
             rend.enabled = false;
