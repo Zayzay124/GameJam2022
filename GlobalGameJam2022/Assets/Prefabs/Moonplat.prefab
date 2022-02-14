@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 346c200da6e5ce74c961b61ae4603e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 8335394138727800534, guid: 64ec88c195afab24993aabd9fa26c8ef, type: 3}
   rend: {fileID: 1526420568496773064}
   box: {fileID: 1526420568496773111}
 --- !u!61 &1526420568496773111
